@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emmanuel Albart Ulikaye — Web Developer</title>
+<meta name="description" content="Portfolio of Emmanuel Albart Ulikaye — Web Developer & Computer Science student in Dar es Salaam, creator of Lideh.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#hero" class="logo">EAU<span class="logo-dot">.</span></a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#about" data-nav>About</a>
+      <a href="#skills" data-nav>Skills</a>
+      <a href="#work" data-nav>Work</a>
+      <a href="#experience" data-nav>Experience</a>
+      <a href="#education" data-nav>Education</a>
+      <a href="#contact" data-nav>Contact</a>
+      <a href="assets/Emmanuel_Ulikaye_CV.pdf" class="nav-cv" download>Résumé ↓</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-inner reveal">
+      <p class="eyebrow">06° 48′ S, 39° 17′ E — Dar es Salaam, Tanzania</p>
+      <h1 class="hero-title">
+        Emmanuel Albart<br><em>Ulikaye</em>
+      </h1>
+      <p class="hero-role">
+        Web Developer <span class="dot">·</span> Computer Science Student <span class="dot">·</span> Based in Dar es Salaam
+      </p>
+      <p class="hero-bio">
+        Final-year CS student at IFM and creator of <strong>Lideh</strong> — a Django-powered
+        musician booking platform. I build practical web solutions that solve real problems.
+      </p>
+      <div class="hero-cta">
+        <a href="#work" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+      </div>
+    </div>
+
+    <svg class="horizon" viewBox="0 0 1440 140" preserveAspectRatio="none" aria-hidden="true">
+      <path id="horizonPath" d="M0,90 C 200,40 320,120 520,80 C 720,40 800,110 1000,70 C 1200,30 1300,90 1440,60" />
+    </svg>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+      <span>Scroll</span>
+      <svg width="14" height="20" viewBox="0 0 14 20" fill="none"><path d="M7 1V19M7 19L1 13M7 19L13 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="section-inner about-grid">
+      <div class="section-head reveal">
+        <span class="tag">01 — About</span>
+        <h2>Who I am</h2>
+      </div>
+
+      <div class="about-body reveal">
+        <p>
+          I'm a final-year <strong>BSc Computer Science</strong> student at the Institute of
+          Finance Management (IFM) in Dar es Salaam, following on from a Diploma in Computer
+          Science at the same institute. Between lectures and late-night builds, I've focused
+          on turning ideas into working software — most notably Lideh, a platform that helps
+          musicians and event organisers find each other without the usual back-and-forth.
+        </p>
+        <p>
+          I care about software that serves real communities, not just polished demos. I'm
+          fluent in both Swahili and English, comfortable working across either, and based in
+          Dar es Salaam — open to remote work, internships, and collaborations.
+        </p>
+
+        <ul class="about-facts">
+          <li>
+            <span class="fact-num">04<sup>th</sup></span>
+            <span class="fact-label">Year of BSc Computer Science, IFM</span>
+          </li>
+          <li>
+            <span class="fact-num">2021–23</span>
+            <span class="fact-label">Diploma in Computer Science, IFM</span>
+          </li>
+          <li>
+            <span class="fact-num">SW / EN</span>
+            <span class="fact-label">Fluent in Swahili and English</span>
+          </li>
+          <li>
+            <span class="fact-num">DSM</span>
+            <span class="fact-label">Based in Dar es Salaam, open to opportunities</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section section-alt" id="skills">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <span class="tag">02 — Skills</span>
+        <h2>What I work with</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <h3>Web Development</h3>
+          <ul>
+            <li><span class="skill-name">Python / Django</span></li>
+            <li><span class="skill-name">PHP</span></li>
+            <li><span class="skill-name">MySQL</span></li>
+            <li><span class="skill-name">HTML, CSS, JavaScript</span></li>
+            <li><span class="skill-name">Git &amp; GitHub</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3>Tools &amp; Environment</h3>
+          <ul>
+            <li><span class="skill-name">Visual Studio Code</span></li>
+            <li><span class="skill-name">PyCharm</span></li>
+            <li><span class="skill-name">Git CLI</span></li>
+            <li><span class="skill-name">Linux / Terminal workflows</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section" id="work">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <span class="tag">03 — Work</span>
+        <h2>Featured project</h2>
+      </div>
+
+      <div class="project-feature reveal">
+        <div class="project-copy">
+          <p class="project-kicker">Live platform · lideh.co.tz</p>
+          <h3>Lideh — Musician Booking Platform</h3>
+          <p>
+            A web platform connecting musicians and clients for event bookings. Artists build
+            a public profile, clients search by act and availability, and both sides manage
+            the booking through to confirmation — no more chasing contacts over WhatsApp.
+          </p>
+          <ul class="project-features">
+            <li>Artist profiles with portfolio &amp; availability</li>
+            <li>End-to-end booking management</li>
+            <li>Search &amp; filter by artist, event type, location</li>
+          </ul>
+          <div class="tech-tags">
+            <span>Django</span><span>Python</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <a href="https://www.lideh.co.tz" target="_blank" rel="noopener" class="btn btn-primary btn-small">
+            Visit Lideh
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M4 10L10 4M10 4H5M10 4V9" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+
+        <div class="project-mockup" aria-hidden="true">
+          <div class="browser-frame">
+            <div class="browser-bar">
+              <span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span>
+              <span class="browser-url">lideh.co.tz</span>
+            </div>
+            <div class="browser-body">
+              <div class="mock-nav">
+                <span class="mock-logo">Lideh</span>
+                <span class="mock-pill"></span>
+                <span class="mock-pill"></span>
+              </div>
+              <div class="mock-hero">
+                <div class="mock-lines">
+                  <span class="mock-line w60"></span>
+                  <span class="mock-line w40"></span>
+                  <span class="mock-btn"></span>
+                </div>
+                <svg class="mock-waveform" viewBox="0 0 160 60" preserveAspectRatio="none">
+                  <rect x="0" y="20" width="6" height="20"/><rect x="12" y="8" width="6" height="44"/><rect x="24" y="24" width="6" height="12"/><rect x="36" y="2" width="6" height="56"/><rect x="48" y="16" width="6" height="28"/><rect x="60" y="26" width="6" height="8"/><rect x="72" y="10" width="6" height="40"/><rect x="84" y="20" width="6" height="20"/><rect x="96" y="4" width="6" height="52"/><rect x="108" y="18" width="6" height="24"/><rect x="120" y="24" width="6" height="12"/><rect x="132" y="8" width="6" height="44"/><rect x="144" y="20" width="6" height="20"/>
+                </svg>
+              </div>
+              <div class="mock-cards">
+                <span class="mock-card"></span><span class="mock-card"></span><span class="mock-card"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-more reveal">
+        <p>More builds are in progress — take a look at the rest on GitHub.</p>
+        <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="btn btn-ghost btn-small">See all repositories</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section section-alt" id="experience">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <span class="tag">04 — Experience</span>
+        <h2>Where I've worked</h2>
+      </div>
+
+      <ol class="timeline reveal">
+        <li class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="timeline-date">July 2021 – September 2021</p>
+            <h3>ICT Intern — Institute of Finance Management (IFM)</h3>
+            <ul>
+              <li>Provided hardware and software support for staff across departments</li>
+              <li>Maintained network connectivity and helped resolve outages</li>
+              <li>Handled troubleshooting and installation of applications on staff machines</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="section" id="education">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <span class="tag">05 — Education</span>
+        <h2>Academic background</h2>
+      </div>
+
+      <ol class="timeline reveal">
+        <li class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="timeline-date">In progress · Final year</p>
+            <h3>BSc Computer Science — IFM, Dar es Salaam</h3>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="timeline-date">2021 – 2023</p>
+            <h3>Diploma in Computer Science — IFM, Dar es Salaam</h3>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="timeline-date">2018 – 2020</p>
+            <h3>ACSEE — Ifunda Tech Secondary School, Iringa</h3>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATES ============ -->
+  <section class="section section-alt" id="certificates">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <span class="tag">06 — Certificates</span>
+        <h2>Continued learning</h2>
+      </div>
+
+      <ul class="cert-list reveal">
+        <li class="cert-item">
+          <div class="cert-badge">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10.5L8 14.5L16 5.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <h3>Crash Course on Python</h3>
+            <p>Google · Coursera — April 2025</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section contact-section" id="contact">
+    <div class="section-inner contact-grid">
+      <div class="contact-info reveal">
+        <span class="tag">07 — Contact</span>
+        <h2>Let's build something</h2>
+        <p>
+          Have a project, internship, or role in mind? I'd like to hear about it —
+          reach out directly or send a message with the form.
+        </p>
+
+        <ul class="contact-list">
+          <li>
+            <span class="contact-label">Email</span>
+            <a href="mailto:ulikaye.immanuel@gmail.com">ulikaye.immanuel@gmail.com</a>
+          </li>
+          <li>
+            <span class="contact-label">Phone</span>
+            <a href="tel:+255788939812">+255 788 939 812</a>
+          </li>
+          <li>
+            <span class="contact-label">GitHub</span>
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener">github.com/yourusername</a>
+          </li>
+        </ul>
+
+        <a href="assets/Emmanuel_Ulikaye_CV.pdf" class="btn btn-ghost btn-small" download>
+          Download CV
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 1V9M7 9L3.5 5.5M7 9L10.5 5.5M2 12H12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" action="https://formsubmit.co/ulikaye.immanuel@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New message from portfolio site">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" style="display:none">
+
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" required placeholder="Your name">
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" required placeholder="you@example.com">
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary" id="formSubmit">
+          <span class="btn-text">Send Message</span>
+        </button>
+        <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p>© <span id="year"></span> Emmanuel Albart Ulikaye. Built from scratch in Dar es Salaam.</p>
+    <a href="#hero" class="back-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
