@@ -1,4 +1,14 @@
 // ============================================================
+// Hide hero photo frame if no photo has been added yet
+// ============================================================
+const heroPhoto = document.querySelector('.hero-photo img');
+if (heroPhoto) {
+  heroPhoto.addEventListener('error', () => {
+    heroPhoto.closest('.hero-photo').style.display = 'none';
+  }, { once: true });
+}
+
+// ============================================================
 // Footer year
 // ============================================================
 document.getElementById('year').textContent = new Date().getFullYear();
